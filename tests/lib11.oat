@@ -1,0 +1,17 @@
+int program (int argc, string[] argv) {
+
+  /*int[] arr = array_of_string("1234967890");
+  int sum = 0;
+
+  for (int i=0; i<10; i=i+1;) {
+    arr[i] = i;
+  }
+  for (int i=0; i<10; i=i+1;) {
+    sum = sum + arr[i];
+  }*/
+  /*int [] arr = array_of_string("a");*/
+  /*int [] arr = {1,2,3};*/
+  int [] arr = new int[5] (fun i -> i);
+  int sum = arr[1];
+  return sum;
+}
